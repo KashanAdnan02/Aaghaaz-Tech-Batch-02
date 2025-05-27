@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+form {
+    width: 500px;
+    margin: 60px auto;
+}
+
+form div label {
+    display: block;
+    font-size: 16px;
+}
+
+form div input,
+form div textarea {
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    outline: 0;
+}
+
+form button {
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgba(0, 0, 0, 0.819);
+}
+
+#data-container {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#data-container div {
+    width: 350px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+#data-container div img {
+    border-radius: 8px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#data-container div h2 {
+    color: chocolate;
+}
+
+.btn-del {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 0;
+    font-weight: 500;
+}
+
+.btn-update {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 0;
+    font-weight: 500;
+}
