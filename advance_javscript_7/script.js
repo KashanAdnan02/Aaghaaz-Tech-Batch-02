@@ -9,7 +9,7 @@ async function submit() {
         .upload('avatar1.png', image, {
             cacheControl: '3600',
             upsert: false
-        })
+        })  
     console.log(data);
     console.log(error);
 
