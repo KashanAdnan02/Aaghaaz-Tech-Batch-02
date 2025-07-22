@@ -1,0 +1,74 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card1 {
+  border: 2px solid black;
+  width: 300px;
+  height: 400px;
+}
+
+.components {
+  display: flex;
+}
+
+.image {
+  width: 49px;
+  margin-top: 30px;
+
+}
+
+.card2 {
+  border: 2px solid black;
+  width: 300px;
+  height: 400px;
+  background-color: rgb(255, 111, 178);
+}
+
+.btn-1 {
+
+  width: 240px;
+  height: 44px;
+  border-radius: 30px;
+  border: none;
+  color: rgb(245, 22, 107);
+  background-color: rgb(255, 255, 255);
+}
+
+.card2 h1 {
+  color: white;
+}
+
+.card2 p {
+  color: white;
+}
+
+.btn {
+
+  width: 240px;
+  height: 44px;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  background-color: black;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+  gap: 27px;
+
+} */
+
+img{
+  width: 200px;
+}
+
+.main{
+  display: flex;
+}
